@@ -1,0 +1,170 @@
+body{
+max-width: 100%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    background-color: #F3F2F2;
+    background-size: cover;
+    margin-left:auto;
+    margin-right:auto;
+
+}
+
+h3 {
+    color: #000;
+    font-weight: 700;
+    margin: 30px;
+}
+
+.table-hover {
+    color: #000;
+    font-weight: 500;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+
+}
+img#logo {
+    vertical-align: 0%;
+    height: 40px;
+
+}
+
+#headerhomepage {
+    max-width: 100%;
+    padding: 30px;
+    position: fixed;  
+    top: 0;
+    left: 0;
+    background-color: #F3F2F2;
+    box-shadow: 0 1px 5px 0px rgba(51, 51, 51, 0.3);
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}
+
+#headerformpage {
+    max-width: 100%;
+    position: fixed;  
+    top: 0;
+    left: 0;
+    background-color: #F3F2F2;
+    box-shadow: 0 1px 5px 0px rgba(51, 51, 51, 0.3);
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+
+}
+
+#navhomepage {
+    position: absolute;
+    right: 5%;
+    top: 30%;
+}
+
+
+.badge1 {
+    position:relative;
+    margin-right:20px;
+    vertical-align: top;
+}
+.badge2 {
+    position:relative;
+    margin-right:20px ;
+    vertical-align: top;
+}
+.badge3 {
+    position:relative;
+    margin-right:20px ;
+    vertical-align: top;
+}
+.badge1[data-badge]:after {
+    content:attr(data-badge);
+    position:absolute;
+    top:-10px;
+    right:-10px;
+    font-size:.7em;
+    background:yellow;
+    color:blue;
+    width:18px;height:18px;
+    text-align:center;
+    line-height:18px;
+    border-radius:50%;
+    box-shadow:0 0 1px #fff;
+}
+
+.badge2[data-badge]:after {
+    content:attr(data-badge);
+    position:absolute;
+    top:-10px;
+    right:-10px;
+    font-size:.7em;
+    background:yellow;
+    color:blue;
+    width:18px;height:18px;
+    text-align:center;
+    line-height:18px;
+    border-radius:50%;
+    box-shadow:0 0 1px #fff;
+}
+
+.badge3[data-badge]:after {
+    content:attr(data-badge);
+    position:absolute;
+    top:-10px;
+    right:-10px;
+    font-size:.7em;
+    background:yellow;
+    color:blue;
+    width:18px;height:18px;
+    text-align:center;
+    line-height:18px;
+    border-radius:50%;
+    box-shadow:0 0 1px #fff;
+    
+}
+
+#addbutton{
+    margin-top: 20px;
+}
+#imageshomepage {
+    max-width: 1100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#imageformpage {
+    margin-top: 50px;
+
+}
+
+#footerhomepage {
+    
+    width: 100%;
+    background-color: #F4F1F1;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    box-shadow: 0 -1px 5px 0px rgba(51, 51, 51, 0.3);
+
+
+}
+
+
+#footerhomepage p {
+    font-size: 18px;
+    margin-bottom: 0;
+    font-size: 700;
+    text-decoration: none;
+}
+
+#footerhomepage a:hover{
+    text-decoration: none;
+    color:#feb236  
+}
+
+
+
+
+
